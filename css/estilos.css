@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: url(https://i.ibb.co/JKJXQMx/developer-activity.png), url(https://sendeyo.com/es/e3aa86abf5);
+    background-position: 300px, 0% 0%;
+    background-size: 80% 80%, 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main {
+    max-width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar {
+    height: 100%;
+}
+.list-nav {
+    display: flex;
+    height: 100%;
+}
+.list-nav li {
+    height: 100%;
+    list-style-type: none;
+    padding: 1rem 0.8rem;
+}
+.list-nav li a {
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 1.3rem;
+    border-radius: 2.5rem;
+    transition: all 1s ease;
+}
+.list-nav li a:hover {
+    background-color: rgb(220, 91, 91);
+}
+
+.body {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    width: 30%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+}
+.texto-intro {
+    font-size: 1.5rem;
+}
+
+.boton-intro {
+    border: 0.05rem solid lightcoral;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 13rem;
+    background-image: linear-gradient(270deg,lightcoral 80%, rgb(244, 179, 179));
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.boton-intro:hover, .list-nav li a:hover  {
+    transform: translateY(-0.5rem);
+}
