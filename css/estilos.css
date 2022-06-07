@@ -96,3 +96,7 @@ body {
 .boton-intro:hover, .list-nav li a:hover  {
     transform: translateY(-0.5rem);
 }
+
+.footer {
+    text-align: center;
+}
