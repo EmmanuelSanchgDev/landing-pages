@@ -69,11 +69,14 @@ body {
 
 .intro {
     width: 30%;
-    height: 30rem;
+    height: 36rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     justify-self: center;
+}
+.title-intro {
+    font-size: 2.6rem;
 }
 .texto-intro {
     font-size: 1.5rem;
