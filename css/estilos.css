@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: url(https://i.ibb.co/JKJXQMx/developer-activity.png), url(https://sendeyo.com/es/e3aa86abf5);
+    background: url(/images/developer_activity.svg), url(/images/Background-page.svg);
     background-position: 300px, 0% 0%;
     background-size: 80% 80%, 100% 100%;
     background-repeat: no-repeat;
