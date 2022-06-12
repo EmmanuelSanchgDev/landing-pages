@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro', sans-serif;;
+
+    background-image: url(/images/Background-page.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo {
+    align-self: center;
+}
+.nav {
+    height: 100%;
+
+    background-color: #FC8787;
+}
+.list {
+    height: 100%;
+    display: flex;
+}
+.list li {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 50rem;
+    transition: all 300ms ease;
+}
+li a:hover {
+    background-color: #F55E5E;
+    transform: translateY(-0.6rem);
+}
+
+.view {
+    max-width: 70%;
+    margin: auto;
+}
+
+.primary {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description {
+    min-width: 34rem;
+    max-width: 40rem;
+}
+.description > * {
+    margin-bottom: 2rem;
+}
+.description :nth-child(2) {
+    margin-bottom: 4rem;
+}
+.description .title {
+    font-size: 2.8rem;
+}
+.text {
+    line-height: 2.6rem;
+}
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to right, #ff818171, #F55E5E 50%);
+    padding: 1.5rem 5rem;
+    border-radius: 5rem;
+    border: 0.1rem solid #F08080;
+    transition: all 300ms ease;
+}
+.button:hover {
+    box-shadow: 0 0 1.5rem #F55E5E;
+}
+.primary figure {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 100%;
+    min-width: 340px;
+    
+    animation: move-image 4s linear infinite;
+}
+@keyframes move-image {
+    0% {
+        transform: translateY(1.5rem);
+    } 50% {
+        transform: translateY(0rem);
+    } 100% {
+        transform: translateY(1.5rem);
+    }
+}
